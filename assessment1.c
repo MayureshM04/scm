@@ -1,6 +1,6 @@
 #include<stdio.h>
-int marr[][];
-int nrows=3,ncols=5;
+int marr[3][5];
+nrows=3,ncols=5;
 int main() {
 for(int i=0;i<nrows;i++)
 {
