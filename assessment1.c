@@ -9,7 +9,7 @@ for(int i=0;i<nrows;i++)
      marr[i][j]=rand()%100;  
   }
 }
-int column_wise_sum[ncols],total=0;
+int column_wise_sum[ncols];
 for(int j=0;j<ncols;j++)
 {
   column_wise_sum[j]=0;
@@ -19,7 +19,7 @@ for(int j=0;j<ncols;j++)
     column_wise_sum[j]+=marr[i][j];
   }
 
-  total+=column_wise_sum[j];
+  int total+=column_wise_sum[j];
   printf("\n");
 }
   return 0;
